@@ -37,7 +37,7 @@
             <div class="controller-area">
                 <div class="controller">
                     <div id="controls-direction">
-                        <div id="four_box"></div>
+                        <div id="controls-rocker"></div>
                         <button role="BUTTON_UP" class="up joydirection" id="joystick_btn_up">up</button>
                         <button role="BUTTON_RIGHT" class="right joydirection" id="joystick_btn_right">right</button>
                         <button role="BUTTON_DOWN" class="down joydirection" id="joystick_btn_down">down</button>
@@ -198,7 +198,7 @@ function select(val) {
 }
 
 var joystick = new Joystick({
-    el: select("four_box"),
+    el: select("controls-rocker"),
     mode: 'static',
     color: "#808080",
     size: 150,
